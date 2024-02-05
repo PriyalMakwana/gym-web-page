@@ -94,13 +94,30 @@ body{
    width: 508px ;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     /* Add styles for smaller screens here */
     .left, .right {
         display: none; /* Hide left and right sections on smaller screens */
     }
-
+    .form-group input{
+        width: 200px;
+        font-size: 14px;
+    }
+    .navbar li{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .navbar li a{
+        padding: 3px;
+    }
+    .container button{
+        width: 200px;
+    }
+    .form-group{
+        align-items: center;
+        justify-content: center;
+    }
     .mid {
-        width: 100%; /* Make the middle section take up the full width */
+        width: 100%;/* Make the middle section take up the full width */
     }
 }
