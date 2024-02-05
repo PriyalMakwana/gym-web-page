@@ -1,108 +1,97 @@
-body {
+body{
     color: white;
-    margin: 0;
-    padding: 0;
-    background: url("new2.jpg");
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin:0px;
+  padding:0px;
+  background: url("new2.jpg");
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 .left{
-    /* border: 2px solid red;*/
-     display:inline-block;
-     position: absolute;
-      left: 60px;
-      top: 20px;
-  }
-  .left img{
-      width: 67px;
-      filter: invert();
-      
-  }
-
-.name {
+  /* border: 2px solid red;*/
+   display:inline-block;
+   position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 67px;
+    filter: invert();
+    
+}
+.name{
     text-align: center;
     line-height: 5px;
     font-size: 18px;
-}
 
-.mid {
+}
+.mid{
+   /* border: 2px solid rgb(241, 211, 11);*/
     display: block;
-    width: 80%;
+    width: 40%;
     margin: 29px auto;
+    
+    
 }
-
-.right {
+.right{
+   /*border: 2px solid rgb(21, 255, 0);*/
     position: absolute;
-    right: 3%;
-    top: 3%;
+    right: 34px;
+    top: 33px;
     display: inline-block;
 }
-
-.navbar {
-    display: block;
-    text-align: center;
+.navbar{
+    display: inline-block;
 }
-
-.navbar li {
+.navbar li{
     display: inline-block;
     font-size: 20px;
-    margin: 0 10px;
 }
-
-.navbar li a {
+.navbar li a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding:20px;
 }
-
-.navbar li a:hover, .navbar li a.active {
+.navbar li a:hover,.navbar li a.active{
     text-decoration: underline;
     color: rgb(71, 72, 72);
 }
-
-.btn {
+.btn{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0 9px;
+    margin: 0px 9px;
     color: white;
     background-color: rgb(24, 25, 36);
     padding: 4px 14px;
     border: 2px solid rgb(202, 198, 198);
-    border-radius: 10px;
+    border-radius:10px;
     font-size: 20px;
     cursor: pointer;
 }
-
-.btn:hover {
+.btn:hover{
     background-color: rgb(156, 153, 153);
 }
-
-.container {
+.container{
     border: 2px solid rgb(208, 220, 236);
-    margin: 5% auto;
-    padding: 3% 5%;
-    border-radius: 25px;
-    width: 80%;
+    margin: 106px 80px;
+    padding: 35px 75px;
+    border-radius:  25px; 
+    width: 33%;
 }
-
-.form-group input {
-    text-align: center;
+.form-group input{
+   text-align: center;
     display: block;
     font-size: 25px;
     margin: 11px auto;
-    width: 100%;
+    width: 508px;
     padding: 1px;
-    border: 2px solid black;
-    border-radius: 8px;
+    border: 2px solid black ;
+    border-radius: 8px ;
 }
-
-.container h1 {
+.container h1{
     text-align: center;
 }
-
-.container button {
-    display: block;
-    margin: 5% auto;
-    width: 100%;
+.container button{
+   display: block;
+   margin: 20px auto;
+   width: 508px ;
 }
 
 @media screen and (max-width: 768px) {
